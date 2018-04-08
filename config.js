@@ -4,7 +4,7 @@ var config = {
         user: 'root',
         password: 'asdasd',
         port: 3306,
-        db: 'hs_we'
+        db: 'hs_web'
     },
     server: {
         host: '127.0.0.1',

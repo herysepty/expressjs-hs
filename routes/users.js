@@ -10,7 +10,7 @@ router.list = function(req, res){
 
     req.getConnection(function(err,connection){
 
-        var query = connection.query('SELECT * FROM users   ',function(err,rows)
+        var query = connection.query('SELECT * FROM users ',function(err, rows)
         {
 
             if(err) {
